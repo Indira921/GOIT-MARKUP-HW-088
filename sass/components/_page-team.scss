@@ -71,7 +71,7 @@
   }
 }
 
-.page-team .tech-scill {
+.page-team .position {
   color: $secondary-color;
 
   text-align: center;
@@ -94,7 +94,6 @@
 
 .soc-link > .item {
   &:not(:last-child) {
-    // width: calc((100% - 3 * 10px) / 4);
     margin-right: 10px;
   }
 }
@@ -108,17 +107,17 @@
   align-items: center;
   color: $primary-icon-color;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms $timing-function;
   
   &:hover,
   &:focus {
-    background-color: $accent-color;
+    background-color: #2196F3;
     color: $white-color;
   }
   @media screen and (min-width: $desktop) {
     &:hover,
     &:focus {
-      transition: fill 250ms var(--timing-function);
+      transition: fill 250ms $timing-function;
     }
   }
 }

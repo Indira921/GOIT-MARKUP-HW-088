@@ -51,26 +51,25 @@
         </div>
 
         <button
-          type="button"
-          class="menu-button"
-          aria-expanded="false"
-          data-menu-button
+        type="button"
+        class="menu-button"
+        aria-expanded="false"
+        data-menu-button>
+        <svg
+          width="40"
+          height="40"
+          aria-label="переключатель мобильного меню"
         >
-          <svg
-            width="40"
-            height="40"
-            aria-label="переключатель мобильного меню"
-          >
-            <use
-              class="close"
-              href="./images/symbol-defs.svg#icon-menu_close"
-            ></use>
-            <use
-              class="open"
-              href="./images/symbol-defs.svg#icon-menu_open"
-            ></use>
-          </svg>
-        </button>
+          <use
+            class="close"
+            href="./images/symbol-defs.svg#icon-close"
+          ></use>
+          <use
+            class="open"
+            href="./images/symbol-defs.svg#icon-menu"
+          ></use>
+        </svg>
+      </button>
       </div>
     </header>
     <!--основной контент-->
@@ -80,7 +79,7 @@
         <div class="filter-list">
           <ul class="list">
             <li class="item">
-              <button class="filter-button link">Все</button>
+              <button class="filter-button link current-page">Все</button>
             </li>
             <li class="item">
               <button class="filter-button link">Веб-сайты</button>
@@ -614,7 +613,7 @@
             <ul class="soc-link list">
               <li class="item">
                 <a
-                  href="https://www.instagram.com"
+                  href="#"
                   class="link link-instagram"
                   aria-label="Ссылка на Instagram"
                   ><svg class="icon-link" width="20" height="20">
@@ -623,7 +622,7 @@
               </li>
               <li class="item">
                 <a
-                  href="https://www.twitter.com"
+                  href="#"
                   class="link link-twitter"
                   aria-label="Ссылка на Twitter"
                   ><svg class="icon-link" width="20" height="20">
@@ -631,7 +630,7 @@
               </li>
               <li class="item">
                 <a
-                  href="https://www.facebook.com"
+                  href="#"
                   class="link link-facebook"
                   aria-label="Ссылка на Facebook"><svg class="icon-link" width="20" height="20">               <use
                       href="./images/symbol-defs.svg#icon-facebook-1"
@@ -639,7 +638,7 @@
               </li>
               <li class="item">
                 <a
-                  href="https://www.linkedin.com"
+                  href="#"
                   class="link link-linkedin"
                   aria-label="Ссылка на LinkedIn"
                   ><svg class="icon-link" width="20" height="20">
@@ -653,7 +652,7 @@
 
           <div class="subscription">
               <form class="form js-speaker-form">
-              <label for="mail" class="join-in">подписаться на рассылку</label>
+              <label for="mail" class="join-in">подпишитесь на рассылку</label>
               <input type="email" name="mail" id="mail" placeholder="E-mail" />
               <button type="submit" class="button">
                 Подписаться<svg class="icon-send" width="24" height="24">
